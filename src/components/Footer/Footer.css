@@ -1,0 +1,22 @@
+.Footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+
+@media screen and (max-width: 1200px) {
+    .Footer{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+@media screen and (max-width: 768px) {
+    .Footer{
+      grid-template-columns: 1fr;
+    } 
+  }
+
+
